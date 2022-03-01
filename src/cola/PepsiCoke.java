@@ -6,7 +6,7 @@ package cola;
 
 /**
  * Java implementation of cola budget day allocation
- * @author Ilkka Kotilainen
+ * @author antiik.dev
  * @version 25 Feb 2022
  */
 public class PepsiCoke {
@@ -37,6 +37,7 @@ public class PepsiCoke {
 			if ( i % 3 == 0 ) {
 				System.out.println("Pepsi ");
 				Pepsi++;
+				continue;
 			}
 			// print numbers 1-100 if no cola drinks
 			else System.out.println(i + " ");
